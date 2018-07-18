@@ -1,0 +1,65 @@
+#include <stdio.h>
+
+int main()
+{
+ 
+   int X,Y;
+
+    float sum;
+
+    scanf("%d",&X);
+
+    scanf("%d",&Y);
+
+    if(X==1)
+
+    {
+        
+sum=4.00*Y;
+ 
+       printf("Total: R$ %0.2f\n",sum);
+
+    }
+   
+ else if(X==2)
+   
+ {
+        
+sum=4.50*Y;
+    
+    printf("Total: R$ %0.2f\n",sum);
+ 
+   }
+   
+ else if(X==3)
+  
+  {
+        sum=5.00*Y;
+  
+      printf("Total: R$ %0.2f\n",sum);
+
+    }
+ 
+   else if(X==4)
+ 
+   {
+      
+  sum=2.00*Y;
+ 
+       printf("Total: R$ %0.2f\n",sum);
+ 
+   }
+  
+  else if(X==5)
+
+    {
+     
+   sum=1.50*Y;
+  
+      printf("Total: R$ %0.2f\n",sum);
+ 
+   }
+   
+ return 0;
+
+}

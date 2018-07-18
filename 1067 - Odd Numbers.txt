@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main()
+{
+
+    int X,n;
+
+    scanf("%d",&X);
+
+    for(n=1;n<=X;++n)
+
+    {
+       
+ if(n%2==!0)
+ 
+       {
+         
+   printf("%d\n",n);
+ 
+       }
+  
+  }
+
+    return 0;
+
+}

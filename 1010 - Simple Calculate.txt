@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+
+  	  int a,b,c,d;
+
+  	  float e,f,w;
+
+  	  scanf("%d" "%d" "%f",&a,&b,&e);
+
+   	 scanf("%d" "%d" "%f",&c,&d,&f);
+
+   	 w=e*b+f*d;
+
+  	  printf("VALOR A PAGAR: R$ %0.2f\n",w);
+
+  	 return 0;
+
+}

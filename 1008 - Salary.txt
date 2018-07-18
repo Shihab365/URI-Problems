@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+int main()
+{
+ 
+ 	  int NUMBER,W;
+  
+ 	 float X,SALARY;
+  
+	  scanf("%d" "%d" "%f",&NUMBER,&W,&X);
+ 
+ 	  SALARY = X*W;
+  
+	  printf("NUMBER = %d\n",NUMBER);
+ 
+	   printf("SALARY = U$ %.2f\n",SALARY);
+
+  	  return 0;
+
+}

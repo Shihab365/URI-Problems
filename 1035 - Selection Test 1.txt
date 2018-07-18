@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+int main()
+{
+ 
+   int A,B,C,D,sum,sum1,pos,pos1,evn;
+ 
+   scanf("%d %d %d %d",&A,&B,&C,&D);
+ 
+   sum=A+B;
+
+    sum1=C+D;
+ 
+   pos=C>0;
+ 
+   pos1=D>0;
+ 
+   evn=A%2;
+ 
+   if((B>C) && (D>A) && (sum1>sum) && (pos1==pos) && evn==0)
+
+    {
+   
+     printf("Valores aceitos\n");
+
+    }
+    else
+{
+        printf("Valores nao aceitos\n");
+
+
+   }
+    
+return 0;
+
+}

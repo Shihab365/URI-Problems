@@ -1,0 +1,74 @@
+#include <stdio.h>
+
+int main()
+{
+
+    float sal,me,er;
+
+    char p='%';
+
+    scanf("%f",&sal);
+
+    if(sal>=0 && sal<=400.00)
+ 
+   {
+      
+  me=15*sal/100;
+ 
+       er=me+sal;
+   
+     printf("Novo salario: %0.2f\nReajuste ganho: %0.2f\nEm percentual: 15 %c\n",er,me,p);
+
+    }
+  
+  else if(sal>=400.01 && sal<=800.00)
+ 
+   {
+     
+   me=12*sal/100;
+ 
+       er=me+sal;
+ 
+       printf("Novo salario: %0.2f\nReajuste ganho: %0.2f\nEm percentual: 12 %c\n",er,me,p);
+ 
+   }
+    
+else if(sal>=800.01 && sal<=1200.00)
+
+    {
+     
+   me=10*sal/100;
+  
+      er=me+sal;
+ 
+       printf("Novo salario: %0.2f\nReajuste ganho: %0.2f\nEm percentual: 10 %c\n",er,me,p);
+  
+  }
+   
+ else if(sal>=1200.01 && sal<=2000.00)
+   
+ {
+     
+   me=7*sal/100;
+ 
+       er=me+sal;
+   
+     printf("Novo salario: %0.2f\nReajuste ganho: %0.2f\nEm percentual: 7 %c\n",er,me,p);
+   
+ }
+   
+ else if(sal>2000.00)
+ 
+   {
+   
+     me=4*sal/100;
+   
+     er=me+sal;
+   
+     printf("Novo salario: %0.2f\nReajuste ganho: %0.2f\nEm percentual: 4 %c\n",er,me,p);
+
+    }
+
+    return 0;
+
+}

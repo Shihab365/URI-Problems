@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main()
+{
+
+ 	   float A,B,C,TRIANGULO,CIRCULO,TRAPEZIO,QUADRADO,RETANGULO;
+
+    	scanf("%f" "%f" "%f",&A,&B,&C);
+
+ 
+ 	  TRIANGULO=0.5*A*C;
+ 
+ 	  CIRCULO=3.14159*C*C;
+
+ 	   TRAPEZIO=(A+B)/2*C;
+
+  	  QUADRADO=B*B;
+ 
+  	 RETANGULO=A*B;
+
+ 
+  	 printf("TRIANGULO: %0.3f\nCIRCULO: %0.3f\nTRAPEZIO: %0.3f\nQUADRADO: %0.3f\nRETANGULO: %0.3f	\n",TRIANGULO,CIRCULO,TRAPEZIO,QUADRADO,RETANGULO);
+
+ 
+  	  return 0;
+
+}

@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+
+	    char str[100];
+
+	    double x,y;
+
+
+  	  scanf("%s" "%lf" "%lf",str,&x,&y);
+
+  	  y=(y/100)*15+x;
+
+   	 printf("TOTAL = R$ %0.2lf\n",y);
+
+  	  return 0;
+
+}
