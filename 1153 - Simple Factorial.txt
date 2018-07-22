@@ -1,0 +1,22 @@
+#include<stdio.h>
+
+int main()
+{
+
+    int x,i,res=1;
+
+    scanf("%d",&x);
+
+    for(i=x;i>=1;i--)
+
+    {
+ 
+       res=res*i;
+
+    }
+
+    printf("%d\n",res);
+
+    return 0;
+
+}
